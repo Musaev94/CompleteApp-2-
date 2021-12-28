@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2DF8E222A8B0477821D609 /* Pods_CompleteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716E4D67AA967F692A5DEE24 /* Pods_CompleteApp.framework */; };
 		CEACB1202779FA36002446E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB11F2779FA36002446E0 /* AppDelegate.swift */; };
 		CEACB1222779FA36002446E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1212779FA36002446E0 /* SceneDelegate.swift */; };
 		CEACB1242779FA36002446E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1232779FA36002446E0 /* ViewController.swift */; };
 		CEACB1272779FA36002446E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEACB1252779FA36002446E0 /* Main.storyboard */; };
 		CEACB1292779FA38002446E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACB1282779FA38002446E0 /* Assets.xcassets */; };
 		CEACB12C2779FA38002446E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEACB12A2779FA38002446E0 /* LaunchScreen.storyboard */; };
+		CEACB1342779FDAF002446E0 /* IncaFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1332779FDAF002446E0 /* IncaFlag.swift */; };
+		CEACB1362779FF21002446E0 /* IncaTriple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1352779FF21002446E0 /* IncaTriple.swift */; };
+		CEACB1382779FFC0002446E0 /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1372779FFC0002446E0 /* Chess.swift */; };
+		CEACB13A277A009B002446E0 /* FourFlagss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB139277A009B002446E0 /* FourFlagss.swift */; };
+		CEACB13C277A0110002446E0 /* JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB13B277A0110002446E0 /* JoyStick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5688BE79091D49E5A7292F /* Pods-CompleteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompleteApp.release.xcconfig"; path = "Target Support Files/Pods-CompleteApp/Pods-CompleteApp.release.xcconfig"; sourceTree = "<group>"; };
+		716E4D67AA967F692A5DEE24 /* Pods_CompleteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompleteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACB11C2779FA36002446E0 /* CompleteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACB11F2779FA36002446E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEACB1212779FA36002446E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		CEACB1282779FA38002446E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEACB12B2779FA38002446E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEACB12D2779FA38002446E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEACB1332779FDAF002446E0 /* IncaFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncaFlag.swift; sourceTree = "<group>"; };
+		CEACB1352779FF21002446E0 /* IncaTriple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncaTriple.swift; sourceTree = "<group>"; };
+		CEACB1372779FFC0002446E0 /* Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
+		CEACB139277A009B002446E0 /* FourFlagss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourFlagss.swift; sourceTree = "<group>"; };
+		CEACB13B277A0110002446E0 /* JoyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStick.swift; sourceTree = "<group>"; };
+		EC79D6D0801CCBB5E2214FAA /* Pods-CompleteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompleteApp.debug.xcconfig"; path = "Target Support Files/Pods-CompleteApp/Pods-CompleteApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2DF8E222A8B0477821D609 /* Pods_CompleteApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				CEACB11E2779FA36002446E0 /* CompleteApp */,
 				CEACB11D2779FA36002446E0 /* Products */,
+				E57AD140F0E93C6498517D20 /* Pods */,
+				F087397BF488681565B2BA0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,34 @@
 				CEACB11F2779FA36002446E0 /* AppDelegate.swift */,
 				CEACB1212779FA36002446E0 /* SceneDelegate.swift */,
 				CEACB1232779FA36002446E0 /* ViewController.swift */,
+				CEACB1332779FDAF002446E0 /* IncaFlag.swift */,
+				CEACB1352779FF21002446E0 /* IncaTriple.swift */,
+				CEACB13B277A0110002446E0 /* JoyStick.swift */,
+				CEACB1372779FFC0002446E0 /* Chess.swift */,
+				CEACB139277A009B002446E0 /* FourFlagss.swift */,
 				CEACB1252779FA36002446E0 /* Main.storyboard */,
 				CEACB1282779FA38002446E0 /* Assets.xcassets */,
 				CEACB12A2779FA38002446E0 /* LaunchScreen.storyboard */,
 				CEACB12D2779FA38002446E0 /* Info.plist */,
 			);
 			path = CompleteApp;
+			sourceTree = "<group>";
+		};
+		E57AD140F0E93C6498517D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC79D6D0801CCBB5E2214FAA /* Pods-CompleteApp.debug.xcconfig */,
+				2C5688BE79091D49E5A7292F /* Pods-CompleteApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F087397BF488681565B2BA0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716E4D67AA967F692A5DEE24 /* Pods_CompleteApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEACB1302779FA38002446E0 /* Build configuration list for PBXNativeTarget "CompleteApp" */;
 			buildPhases = (
+				029A5354B2928A6EC603A709 /* [CP] Check Pods Manifest.lock */,
 				CEACB1182779FA36002446E0 /* Sources */,
 				CEACB1192779FA36002446E0 /* Frameworks */,
 				CEACB11A2779FA36002446E0 /* Resources */,
+				8AE4B724EB32C482BD791E26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029A5354B2928A6EC603A709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompleteApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE4B724EB32C482BD791E26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompleteApp/Pods-CompleteApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompleteApp/Pods-CompleteApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompleteApp/Pods-CompleteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEACB1182779FA36002446E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACB1362779FF21002446E0 /* IncaTriple.swift in Sources */,
+				CEACB13C277A0110002446E0 /* JoyStick.swift in Sources */,
 				CEACB1242779FA36002446E0 /* ViewController.swift in Sources */,
 				CEACB1202779FA36002446E0 /* AppDelegate.swift in Sources */,
+				CEACB1382779FFC0002446E0 /* Chess.swift in Sources */,
+				CEACB13A277A009B002446E0 /* FourFlagss.swift in Sources */,
+				CEACB1342779FDAF002446E0 /* IncaFlag.swift in Sources */,
 				CEACB1222779FA36002446E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +372,7 @@
 		};
 		CEACB1312779FA38002446E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79D6D0801CCBB5E2214FAA /* Pods-CompleteApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +400,7 @@
 		};
 		CEACB1322779FA38002446E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5688BE79091D49E5A7292F /* Pods-CompleteApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
